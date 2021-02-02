@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".plantillaRecetas"
+    android:id = "@+id/drawerLayout">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/tituloReceta"
+                style="@style/estiloTitulos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Titulo"
+                android:inputType="textShortMessage" />
+
+            <Spinner
+                android:id="@+id/spCategoria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+
+                />
+
+            <ImageView
+                android:id="@+id/ivFoto"
+                android:layout_width="match_parent"
+                android:layout_height="224dp"
+                tools:srcCompat="@drawable/ic_launcher_background" />
+
+            <Button
+                android:id="@+id/btCargarImagen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="Cargar imagen"
+                android:background="@drawable/estilo_botones"
+                style="@style/estiloBoton"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Spinner
+                    android:id="@+id/spinnerTipo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Spinner
+                    android:id="@+id/spinner_Ingrediente"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/etCantidad"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:hint="cantidad"
+                        android:paddingLeft="15sp"
+                        android:inputType="number"
+                        android:textSize="22dp" />
+
+                    <TextView
+                        android:id="@+id/tvUnidades"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="24sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btAgregarIngrediente"
+                style="@style/estiloBoton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/estilo_botones"
+                android:onClick="nuevoIngrediente"
+                android:text="Añadir ingrediente" />
+
+            <ListView
+                android:id="@+id/listaIngredientes"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#75B3FFD5"
+                android:nestedScrollingEnabled="true" />
+
+            <EditText
+                android:id="@+id/etDescripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Introduce la elaboración de la receta"
+                android:textSize="22dp"
+                android:paddingLeft="15sp"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:scrollbars="vertical" />
+
+            <Button
+                android:id="@+id/btGuardar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:background="@drawable/estilo_botones"
+                style="@style/estiloBoton"
+                android:text="Guardar" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:menu="@menu/menu_lateral"
+        android:layout_gravity = "start"
+        app:headerLayout="@layout/header_menu"
+        />
+
+</androidx.drawerlayout.widget.DrawerLayout>

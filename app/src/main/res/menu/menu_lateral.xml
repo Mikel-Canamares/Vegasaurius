@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_home"
+        android:title="Inicio"
+        />
+
+    <item android:id="@+id/nav_recetario"
+    android:title="Recetario"
+        />
+<!--    android:icon="@drawable/recipe_book"-->
+
+
+    <item android:id="@+id/nav_nuevaReceta"
+        android:title="Nueva receta"/>
+
+    <item android:id="@+id/nav_menu"
+        android:title="Menus"/>
+
+
+    <item android:id="@+id/nav_listaCompra"
+        android:title="Lista de la compra"/>
+
+    <item android:id="@+id/nav_Tutorial"
+        android:title="Tutorial"/>
+
+</menu>

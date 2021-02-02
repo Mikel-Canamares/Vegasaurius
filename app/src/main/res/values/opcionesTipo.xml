@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_categoria">
+        <item>Selecciona un categoría de receta</item>
+        <item>Arroces</item>
+        <item>Ensaladas</item>
+        <item>Bebidas</item>
+        <item>Guisos</item>
+        <item>Postres y desayunos</item>
+        <item>Salsas y guarniciones</item>
+        <item>Sopas y cremas</item>
+        <item>Tapas y aperitivos</item>
+        <item>Verduras</item>
+        <item>Otros</item>
+    </string-array>
+
+    <string-array name="array_tipo">
+        <item>Elige el tipo de ingrediente</item>
+        <item>Arroz y pasta</item>
+        <item>Fruta</item>
+        <item>Veruras</item>
+    </string-array>
+
+    <string-array name="array_alimento">
+        <item>Elige un ingrediente</item>
+    </string-array>
+
+    <string-array name="array_arroz_pasta">
+        <item>Arroz basmati</item>
+        <item>Arroz bomba</item>
+        <item>Arroz salvaje</item>
+        <item>Arroz largo</item>
+        <item>Arroz vaporizado</item>
+        <item>Spaguetis</item>
+        <item>Macarrones</item>
+        <item>Lazos</item>
+        <item>Tallarines</item>
+        <item>Garbanzos</item>
+        <item>Lentejas</item>
+    </string-array>
+
+    <string-array name="array_Aceite">
+        <item>Aceite de oliva</item>
+        <item>Aceite de girasol</item>
+        <item>Sal gorda</item>
+        <item>Sal yodada</item>
+        <item>Vinagre de manzana</item>
+        <item>Vinagre de arroz</item>
+        <item>Vinagre de vino</item>
+        <item>Vinagre balsámico de módena</item>
+    </string-array>
+
+    <string-array name="array_Bebidas">
+        <item>Coca-Cola</item>
+        <item>Fanta de limón</item>
+        <item>Cerveza</item>
+        <item>Vino tinto</item>
+        <item>Vino blanco</item>
+        <item>Sandy</item>
+    </string-array>
+
+    <string-array name="array_Cereales">
+        <item>Muesli</item>
+        <item>Cereales con chocolate</item>
+        <item>Cereales con frutos secos</item>
+        <item>Galletas integrales</item>
+        <item>Galletas campurrianas</item>
+        <item>Oreos</item>
+    </string-array>
+
+
+    <string-array name="array_Conservas">
+        <item>Bote de garbanzos</item>
+        <item>Bote de judias</item>
+        <item>Bote de lentejas</item>
+        <item>Maiz</item>
+        <item>Pimientos de piquillo</item>
+    </string-array>
+
+    <string-array name="array_Cacao">
+        <item>Cacao</item>
+        <item>Te negro</item>
+        <item>Te verde</item>
+        <item>Café molido</item>
+        <item>Café en grano</item>
+    </string-array>
+
+
+    <string-array name="array_Huevos">
+        <item>Leche entera</item>
+        <item>Leche desnatada</item>
+        <item>Leche de soja</item>
+        <item>Mantequilla</item>
+        <item>Margarina</item>
+        <item>Huevos</item>
+        <item>Yogures</item>
+    </string-array>
+
+    <string-array name="array_Fruta">
+        <item>Aguacates</item>
+        <item>Fresas</item>
+        <item>Limones</item>
+        <item>Naranjas</item>
+        <item>Manzanas</item>
+        <item>Melón</item>
+        <item>Plátanos</item>
+        <item>Sandia</item>
+    </string-array>
+
+    <string-array name="array_Panaderia">
+        <item>Galletas Maria</item>
+        <item>Harina de trigo</item>
+        <item>Harina de maiz</item>
+        <item>Pan de molde</item>
+        <item>Barra de pan</item>
+        <item>Magdalenas</item>
+    </string-array>
+
+    <string-array name="array_Sustitutos">
+        <item>Tofu</item>
+        <item>Seitán</item>
+        <item>Salchichas</item>
+        <item>Hamburguesas</item>
+        <item>Tempeh</item>
+    </string-array>
+
+    <string-array name="array_Verduras">
+        <item>Acelgas</item>
+        <item>Apio</item>
+        <item>Ajos</item>
+        <item>Berenjena</item>
+        <item>Brócoli</item>
+        <item>Boniato</item>
+        <item>Calabacín</item>
+        <item>Cebollas</item>
+        <item>Coliflor</item>
+        <item>Judias verdes</item>
+        <item>Tomates</item>
+        <item>Patatas</item>
+        <item>Pimiento rojo</item>
+        <item>Pimiento verde</item>
+        <item>Zanahorias</item>
+    </string-array>
+
+</resources>

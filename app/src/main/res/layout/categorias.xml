@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Categorias"
+    android:id = "@+id/drawerLayout">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btArroces"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/estilo_botones"
+                style="@style/estiloBoton"
+                android:onClick="onClick"
+                android:text="Arroces" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/estilo_botones"
+                style="@style/estiloBoton"
+                android:onClick="onClick"
+                android:text="Ensaladas" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/estilo_botones"
+                style="@style/estiloBoton"
+                android:onClick="onClick"
+                android:text="Bebidas" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/estilo_botones"
+                style="@style/estiloBoton"
+                android:onClick="onClick"
+                android:text="Guisos" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/estilo_botones"
+                style="@style/estiloBoton"
+                android:onClick="onClick"
+                android:text="Postres y desayunos" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/estilo_botones"
+                style="@style/estiloBoton"
+                android:onClick="onClick"
+                android:text="Salsas y guarniciones" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/estilo_botones"
+                style="@style/estiloBoton"
+                android:onClick="onClick"
+                android:text="Sopas y cremas" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/estilo_botones"
+                style="@style/estiloBoton"
+                android:onClick="onClick"
+                android:text="Tapas y aperitivos" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/estilo_botones"
+                style="@style/estiloBoton"
+                android:onClick="onClick"
+                android:text="Verduras" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/estilo_botones"
+                style="@style/estiloBoton"
+                android:onClick="onClick"
+                android:text="Otros" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:menu="@menu/menu_lateral"
+        android:layout_gravity = "start"
+        app:headerLayout="@layout/header_menu"
+        />
+
+</androidx.drawerlayout.widget.DrawerLayout>
